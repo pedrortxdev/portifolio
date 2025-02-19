@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfólio Pessoal - Pedro Henrique
 
-## Getting Started
+![Preview do Projeto](public/portfolio-preview.png)
 
-First, run the development server:
+Um portfólio moderno e interativo desenvolvido com Next.js, TailwindCSS e Framer Motion.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tecnologias
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Next.js 14](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Estrutura do Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### App (`/app`)
 
-## Learn More
+- `layout.tsx` - Layout principal da aplicação
+- `page.tsx` - Página inicial com todas as seções
+- `not-found.tsx` - Página 404 personalizada
+- `globals.css` - Estilos globais
+- `/api/contact` - API route para o formulário de contato
 
-To learn more about Next.js, take a look at the following resources:
+### Componentes (`/components`)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Principais
+- `Header.tsx` - Navegação principal com menu responsivo
+- `Footer.tsx` - Rodapé com links e informações de contato
+- `AnimatedBackground.tsx` - Background interativo com efeitos
+- `ProjectCard.tsx` - Card para exibição de projetos
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+#### Seções
+- `Certifications.tsx` - Exibe certificações
+- `ContactForm.tsx` - Formulário de contato
+- `ExperienceTimeline.tsx` - Timeline de experiência profissional
+- `Technologies.tsx` - Grid de tecnologias utilizadas
+- `Testimonials.tsx` - Seção de depoimentos
+- `Stats.tsx` - Estatísticas e números
 
-## Deploy on Vercel
+#### Utilitários
+- `AnimatedText.tsx` - Componente para animação de texto
+- `CV.tsx` - Componente para download do currículo
+- `LoadingSpinner.tsx` - Spinner de carregamento
+- `MobileMenu.tsx` - Menu mobile responsivo
+- `ScrollToTop.tsx` - Botão para voltar ao topo
+- `SkillCard.tsx` - Card para exibição de habilidades
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌟 Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- ✨ Animações suaves com Framer Motion
+- 📱 Design totalmente responsivo
+- 🌙 Tema dark moderno
+- 📧 Formulário de contato funcional
+- 📄 Download de CV
+- 🎨 Backgrounds animados
+- ⚡ Performance otimizada
+- 🔍 SEO otimizado
+
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 👤 Autor
+
+**Pedro Henrique**
+
+* Website: [lunarhosting.com.br](https://lunarhosting.com.br)
+* Github: [@pedrortxdev](https://github.com/pedrortxdev)
+
+## 🤝 Contribuindo
+
+Contribuições, issues e feature requests são bem-vindas!
+
+1. Faça o Fork do projeto
+2. Crie sua Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a Branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+---
+⭐️ From [pedrortxdev](https://github.com/pedrortxdev)
